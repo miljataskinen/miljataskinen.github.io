@@ -33,6 +33,10 @@ header .container {
     font-size: 1.5em;
     font-weight: bold;
 }
+.logo a {
+    color: inherit; /* Perii yläelementin värin (headerin tekstivärin) */
+    text-decoration: none; /* Poistaa alleviivauksen */
+}
 
 /* Navigaatio */
 nav ul {
@@ -243,8 +247,8 @@ footer {
 }
 
 .feature-item-horizontal {
-    display: flex;
-    align-items: center;
+    display: flex; /* Tehdään tästä flex-kontti */
+    align-items: flex-start; /* Asetetaan elementit yläreunaan */
     margin-bottom: 3em;
     gap: 30px; /* Tilaa kuvan ja tekstin väliin */
 }
@@ -264,6 +268,12 @@ footer {
 
 .feature-text-horizontal {
     flex: 1;
+}
+.feature-text-horizontal h3 {
+    margin-top: 0; /* Poistetaan otsikon ylämarginaali */
+    font-size: 1.8em;
+    margin-bottom: 0.75em;
+    color: #2b5400; /* Green */
 }
 /* Lisäominaisuudet-osio */
 .additional-features {
