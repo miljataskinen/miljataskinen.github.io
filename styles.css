@@ -178,6 +178,11 @@ nav ul li a:hover {
 .button.secondary:hover {
     background-color: #2b5400; /* Green */
 }
+svg {
+    width: 40px; /* Haluttu leveys */
+    height: 40px; /* Haluttu korkeus */
+    color: #0c2900;
+}
 
 /* Ominaisuudet-osio */
 .features {
