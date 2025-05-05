@@ -17,7 +17,7 @@ body {
 
 /* Header-alue */
 header {
-    background-color: #0c2900; /* Forest Green */
+    background-color: #0c2900;  /* Forest Green */
     color: #cfc7b0; /* Ivory */
     padding: 1em 0;
 }
@@ -283,9 +283,9 @@ footer {
 /* Lisäominaisuudet-osio */
 .additional-features {
     padding: 2em 0;
-    background-color: #cfc7b0; /* Ivory */
-    border-top: 1px solid #969b40; /* Chartreuse */
-    border-bottom: 1px solid #969b40; /* Chartreuse */
+    background-color: #f78002; /* Ivory */
+   /* border-top: 1px solid #969b40; /* Chartreuse */
+  /*  border-bottom: 1px solid #969b40;  Chartreuse */
 }
 
 .additional-features-list {
@@ -311,16 +311,6 @@ footer {
 .feature-text {
     font-size: 0.9em;
     color: #0c2900; /* Forest Green */
-}
-/* Google Maps -kartan tyylit */
-.google-map {
-    margin-bottom: 3em; /* Säilytetään tilaa kartan alla */
-    border-radius: 15px; /* Lisätään enemmän pyöreyttä kulmiin */
-    overflow: hidden; /* Piilottaa mahdolliset reunojen ylitykset */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Lisää hienovarainen varjo */
-    border: 1px solid #e0e0e0; /* Lisää kevyt reunaviiva */
-    margin-left: 20px; /* Lisää väliä vasempaan reunaan */
-    margin-right: 20px; /* Lisää väliä oikeaan reunaan */
 }
 
 /* palvelut-muokattu.css */
